@@ -1,0 +1,21 @@
+h2 {
+  font-family: Consolas;
+  font-style: oblique;
+  font-size: 25px;
+}
+
+h3 {
+  font-family: OCR A;
+  color: #1976d2;
+}
+
+.product-list {
+  font-family: Dubai;
+  font-size: 15px;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

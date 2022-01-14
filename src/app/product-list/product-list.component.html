@@ -1,0 +1,19 @@
+<h2>Lista de Produtos</h2>
+<br/>
+<div *ngFor="let product of products">
+  <h3>
+    {{ product.name }}
+  </h3>
+  <div class="product-list">
+    Descrição: {{ product.description }} 
+    <br/>
+    Preço: R${{ product.price }}
+  </div>
+  <br/><br/>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
