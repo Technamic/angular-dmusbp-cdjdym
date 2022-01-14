@@ -1,16 +1,18 @@
-<h2>Lista de Produtos</h2>
-<br/>
-<div *ngFor="let product of products">
-  <h3>
-    {{ product.name }}
-  </h3>
-  <div class="product-list">
-    Descrição: {{ product.description }} 
+<body>
+  <h2>Lista de Produtos</h2>
+  <br/>
+  <div *ngFor="let produtos of products">
+    <h3>
+      <!--<a [title]="produtos.description"></a>-->
+      {{ produtos.name }}
+    </h3>
+      <div class="labels-lista">
+        <strong>Descrição:</strong> {{ produtos.description }} <br/>
+        <strong>Preço:</strong> R${{ produtos.price }}.00 <br/>
+      </div>
     <br/>
-    Preço: R${{ product.price }}
   </div>
-  <br/><br/>
-</div>
+</body>
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.

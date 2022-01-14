@@ -1,3 +1,12 @@
+body {
+  border: 3px solid #1976d2;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
+}
+
 h2 {
   font-family: Consolas;
   font-style: oblique;
@@ -6,10 +15,12 @@ h2 {
 
 h3 {
   font-family: OCR A;
+  font-size: 20px;
+  letter-spacing: 1px;
   color: #1976d2;
 }
 
-.product-list {
+.labels-lista {
   font-family: Dubai;
   font-size: 15px;
 }
